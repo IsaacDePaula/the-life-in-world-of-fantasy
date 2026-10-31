@@ -1,0 +1,1206 @@
+{
+    "creatures": {
+        "player": {
+            "id": "player",
+            "name": "Player Test",
+            "race": "human",
+            "control": true,
+            "gender": "m",
+            "brain": {
+                "personalite": {
+                    "courage": 0.9562632736297825,
+                    "aggressiveness": 0.32820060796816664,
+                    "sociability": -0.21474820332316488
+                },
+                "needs": {
+                    "hunger": 0.5449812793080008,
+                    "energy": 0.8839698443475222,
+                    "social": 0.8591808388542216
+                },
+                "desires": {
+                    "ocupation": 0.2572540763421811,
+                    "discipline": 0.4315844513292489
+                },
+                "ocupations": {
+                    "mage": 0,
+                    "swordsman": 0,
+                    "warrior": 0,
+                    "blacksmith": 0,
+                    "lumberjack": 0,
+                    "hunter": 0,
+                    "warlock": 0,
+                    "alchemist": 0
+                },
+                "progress": {},
+                "knowledge_crafts": [],
+                "foods": 0
+            },
+            "level": 1,
+            "exp": 0,
+            "skills": {
+                "blacksmith": 0,
+                "hunter": 0,
+                "lumberjack": 0,
+                "alchemist": 0
+            },
+            "titles": [],
+            "status": {
+                "hp": 100,
+                "hp-max": 100,
+                "st": 100,
+                "st-max": 100,
+                "mp": 100,
+                "mp-max": 100
+            },
+            "magic": {
+                "spells": {},
+                "effects": {}
+            },
+            "relationships": {
+                "status": {},
+                "knowledge": {}
+            },
+            "attributes": {
+                "str": 10,
+                "dex": 10,
+                "con": 10,
+                "int": 10,
+                "wis": 10,
+                "cha": 10
+            },
+            "inventory": [
+                [
+                    {
+                        "id": "gold",
+                        "name": "Moeda de Ouro",
+                        "type": [
+                            "currency",
+                            "money",
+                            "valuable"
+                        ],
+                        "description": "Um peda\u00e7o de ouro achatado",
+                        "value": 1
+                    },
+                    10300
+                ],
+                [
+                    {
+                        "id": "gold",
+                        "name": "Moeda de Ouro",
+                        "type": [
+                            "currency",
+                            "money",
+                            "valuable"
+                        ],
+                        "description": "Um peda\u00e7o de ouro achatado",
+                        "value": 1
+                    },
+                    10220
+                ],
+                [
+                    {
+                        "id": "gold",
+                        "name": "Moeda de Ouro",
+                        "type": [
+                            "currency",
+                            "money",
+                            "valuable"
+                        ],
+                        "description": "Um peda\u00e7o de ouro achatado",
+                        "value": 1
+                    },
+                    2277
+                ]
+            ],
+            "equipment": [],
+            "items": {},
+            "location": [
+                "elven-high",
+                "igg-local"
+            ],
+            "missions": {
+                "missions-currents": [],
+                "missions-completes": []
+            }
+        },
+        "blacksmith-00123-elven-high": {
+            "id": "blacksmith-00123-elven-high",
+            "name": "Raul",
+            "race": "human",
+            "control": false,
+            "gender": "f",
+            "brain": {
+                "personalite": {
+                    "courage": 0.040163157547221884,
+                    "aggressiveness": 0.28714775241711366,
+                    "sociability": -0.16269071169131827
+                },
+                "needs": {
+                    "hunger": 0.060000000000000005,
+                    "energy": 0.8899999999999999,
+                    "social": 0.13999999999999999
+                },
+                "desires": {
+                    "ocupation": 0.01288092355364806,
+                    "discipline": 0.30922617891347515
+                },
+                "ocupations": {
+                    "mage": 0,
+                    "swordsman": 0,
+                    "warrior": 0,
+                    "blacksmith": 0.01,
+                    "lumberjack": 0,
+                    "hunter": 0,
+                    "warlock": 0,
+                    "alchemist": 0
+                },
+                "progress": {},
+                "knowledge_crafts": [
+                    {
+                        "id": "blacksmith-00001",
+                        "name": "Espada de madeira",
+                        "requisites": {
+                            "blacksmith": 1
+                        },
+                        "craft": {
+                            "leak": 1,
+                            "stick": 1
+                        },
+                        "time": {
+                            "h": 2,
+                            "m": 0,
+                            "d": 0
+                        },
+                        "items": {
+                            "sword-wood": 1
+                        }
+                    },
+                    {
+                        "id": "blacksmith-00002",
+                        "name": "Escudo de madeira",
+                        "requisites": {
+                            "blacksmith": 1
+                        },
+                        "craft": {
+                            "leak": 1,
+                            "stick": 1
+                        },
+                        "time": {
+                            "h": 2,
+                            "m": 0,
+                            "d": 0
+                        },
+                        "items": {
+                            "shield-wood": 1
+                        }
+                    },
+                    {
+                        "id": "blacksmith-00003",
+                        "name": "Elmo de madeira",
+                        "requisites": {
+                            "blacksmith": 1
+                        },
+                        "craft": {
+                            "leak": 1,
+                            "stick": 1
+                        },
+                        "time": {
+                            "h": 1,
+                            "m": 0,
+                            "d": 0
+                        },
+                        "items": {
+                            "elmo-madeira": 1
+                        }
+                    },
+                    {
+                        "id": "blacksmith-00004",
+                        "name": "Peitoral de madeira",
+                        "requisites": {
+                            "blacksmith": 2
+                        },
+                        "craft": {
+                            "leak": 3,
+                            "stick": 2
+                        },
+                        "time": {
+                            "h": 4,
+                            "m": 0,
+                            "d": 0
+                        },
+                        "items": {
+                            "peitoral-madeira": 1
+                        }
+                    },
+                    {
+                        "id": "blacksmith-00005",
+                        "name": "Cal\u00e7as de madeira",
+                        "requisites": {
+                            "blacksmith": 1
+                        },
+                        "craft": {
+                            "leak": 2,
+                            "stick": 1
+                        },
+                        "time": {
+                            "h": 2,
+                            "m": 0,
+                            "d": 0
+                        },
+                        "items": {
+                            "calcas-madeira": 1
+                        }
+                    },
+                    {
+                        "id": "blacksmith-00006",
+                        "name": "Botas de madeira",
+                        "requisites": {
+                            "blacksmith": 1
+                        },
+                        "craft": {
+                            "leak": 1,
+                            "stick": 2
+                        },
+                        "time": {
+                            "h": 2,
+                            "m": 0,
+                            "d": 0
+                        },
+                        "items": {
+                            "botas-madeira": 1
+                        }
+                    }
+                ],
+                "foods": 1
+            },
+            "level": 1,
+            "exp": 0,
+            "skills": {
+                "blacksmith": 1,
+                "hunter": 0,
+                "lumberjack": 0,
+                "alchemist": 0
+            },
+            "titles": [],
+            "status": {
+                "hp": 100,
+                "hp-max": 100,
+                "st": 100,
+                "st-max": 100,
+                "mp": 100,
+                "mp-max": 100
+            },
+            "magic": {
+                "spells": {},
+                "effects": {}
+            },
+            "relationships": {
+                "status": {},
+                "knowledge": {}
+            },
+            "attributes": {
+                "str": 10,
+                "dex": 10,
+                "con": 10,
+                "int": 10,
+                "wis": 10,
+                "cha": 10
+            },
+            "inventory": [
+                [
+                    {
+                        "id": "gold",
+                        "name": "Moeda de Ouro",
+                        "type": [
+                            "currency",
+                            "money",
+                            "valuable"
+                        ],
+                        "description": "Um peda\u00e7o de ouro achatado",
+                        "value": 1
+                    },
+                    800
+                ]
+            ],
+            "equipment": [],
+            "items": {},
+            "location": [
+                "elven-high",
+                "main"
+            ],
+            "missions": {
+                "missions-currents": [],
+                "missions-completes": []
+            }
+        },
+        "alchemist-00123-elven-high": {
+            "id": "alchemist-00123-elven-high",
+            "name": "Rebeca",
+            "race": "human",
+            "control": false,
+            "gender": "f",
+            "brain": {
+                "personalite": {
+                    "courage": 0.7925543784529372,
+                    "aggressiveness": 0.7054623428891247,
+                    "sociability": -0.14744500787419593
+                },
+                "needs": {
+                    "hunger": 0.17,
+                    "energy": 0.7699999999999998,
+                    "social": 0.4984351730613985
+                },
+                "desires": {
+                    "ocupation": 0.17123463317507742,
+                    "discipline": 0.3338373901008991
+                },
+                "ocupations": {
+                    "mage": 0,
+                    "swordsman": 0,
+                    "warrior": 0,
+                    "blacksmith": 0,
+                    "lumberjack": 0,
+                    "hunter": 0,
+                    "warlock": 0,
+                    "alchemist": 0.01
+                },
+                "progress": {},
+                "knowledge_crafts": [
+                    {
+                        "id": "alchemist-00001",
+                        "name": "Po\u00e7\u00e3o de cura",
+                        "requisites": {
+                            "alchemist": 1
+                        },
+                        "craft": {
+                            "liferoot": 1
+                        },
+                        "time": {
+                            "h": 1,
+                            "m": 0,
+                            "d": 0
+                        },
+                        "items": {
+                            "potion-hp50": 1
+                        }
+                    }
+                ],
+                "foods": 1
+            },
+            "level": 1,
+            "exp": 0,
+            "skills": {
+                "blacksmith": 0,
+                "hunter": 0,
+                "lumberjack": 0,
+                "alchemist": 1
+            },
+            "titles": [],
+            "status": {
+                "hp": 100,
+                "hp-max": 100,
+                "st": 100,
+                "st-max": 100,
+                "mp": 100,
+                "mp-max": 100
+            },
+            "magic": {
+                "spells": {},
+                "effects": {}
+            },
+            "relationships": {
+                "status": {},
+                "knowledge": {}
+            },
+            "attributes": {
+                "str": 10,
+                "dex": 10,
+                "con": 10,
+                "int": 10,
+                "wis": 10,
+                "cha": 10
+            },
+            "inventory": [
+                [
+                    {
+                        "id": "gold",
+                        "name": "Moeda de Ouro",
+                        "type": [
+                            "currency",
+                            "money",
+                            "valuable"
+                        ],
+                        "description": "Um peda\u00e7o de ouro achatado",
+                        "value": 1
+                    },
+                    1140
+                ],
+                [
+                    {
+                        "id": "gravedust",
+                        "name": "P\u00f3 da Sepultura",
+                        "type": [
+                            "ingredient",
+                            "material",
+                            "dust",
+                            "necrotic",
+                            "resistance"
+                        ],
+                        "description": "Um material misterioso utilizado para criar resist\u00eancia contra danos necr\u00f3ticos.",
+                        "effect": [
+                            "NECROTIC_RESISTANCE"
+                        ],
+                        "value": 100
+                    },
+                    18
+                ],
+                [
+                    {
+                        "id": "silverthorn",
+                        "name": "Silverthorn",
+                        "type": [
+                            "ingredient",
+                            "herb",
+                            "plant",
+                            "magic",
+                            "resistance"
+                        ],
+                        "description": "Uma planta m\u00e1gica usada para criar uma po\u00e7\u00e3o contra os efeitos da licantropia.",
+                        "effect": [
+                            "LYCANTHROPY_RESISTANCE"
+                        ],
+                        "value": 75,
+                        "consumible": true
+                    },
+                    18
+                ],
+                [
+                    {
+                        "id": "dragons-tongue",
+                        "name": "L\u00edngua de Drag\u00e3o",
+                        "type": [
+                            "ingredient",
+                            "herb",
+                            "spice",
+                            "fire",
+                            "damage"
+                        ],
+                        "description": "Uma pimenta extremamente ardente que pode causar dano de fogo e liberar chamas.",
+                        "effect": [
+                            "FIRE_DAMAGE",
+                            "BURNING_HANDS"
+                        ],
+                        "value": 100,
+                        "consumible": true
+                    },
+                    18
+                ],
+                [
+                    {
+                        "id": "zapthistle",
+                        "name": "Cardo El\u00e9trico",
+                        "type": [
+                            "ingredient",
+                            "herb",
+                            "plant",
+                            "lightning",
+                            "resistance"
+                        ],
+                        "description": "Uma planta carregada de energia usada para criar resist\u00eancia contra danos el\u00e9tricos.",
+                        "effect": [
+                            "LIGHTNING_RESISTANCE"
+                        ],
+                        "value": 100,
+                        "consumible": true
+                    },
+                    18
+                ],
+                [
+                    {
+                        "id": "bloodroot",
+                        "name": "Bloodroot",
+                        "type": [
+                            "ingredient",
+                            "herb",
+                            "root",
+                            "blood",
+                            "alchemy"
+                        ],
+                        "description": "Uma raiz capaz de produzir um sangue falso extremamente convincente.",
+                        "effect": [
+                            "FAKE_BLOOD"
+                        ],
+                        "value": 40,
+                        "consumible": true
+                    },
+                    9
+                ],
+                [
+                    {
+                        "id": "winters-bite",
+                        "name": "Mordida do Inverno",
+                        "type": [
+                            "ingredient",
+                            "herb",
+                            "plant",
+                            "cold",
+                            "resistance"
+                        ],
+                        "description": "Uma planta extremamente fria usada para criar resist\u00eancia contra danos de frio.",
+                        "effect": [
+                            "COLD_RESISTANCE"
+                        ],
+                        "value": 80,
+                        "consumible": true
+                    },
+                    9
+                ],
+                [
+                    {
+                        "id": "weavegrass",
+                        "name": "Grama Tecel\u00e3",
+                        "type": [
+                            "ingredient",
+                            "herb",
+                            "plant",
+                            "crafting",
+                            "stealth"
+                        ],
+                        "description": "Uma grama m\u00e1gica utilizada na fabrica\u00e7\u00e3o de capas que aumentam a capacidade de furtividade.",
+                        "effect": [
+                            "STEALTH"
+                        ],
+                        "value": 100,
+                        "consumible": true
+                    },
+                    9
+                ],
+                [
+                    {
+                        "id": "nightshade",
+                        "name": "Nightshade",
+                        "type": [
+                            "ingredient",
+                            "herb",
+                            "poison",
+                            "plant"
+                        ],
+                        "description": "Uma planta venenosa usada como ingrediente no veneno Sangue de Assassino.",
+                        "effect": [
+                            "POISON"
+                        ],
+                        "value": 50,
+                        "consumible": true
+                    },
+                    8
+                ],
+                [
+                    {
+                        "id": "shadowleaf",
+                        "name": "Folha das Sombras",
+                        "type": [
+                            "ingredient",
+                            "herb",
+                            "plant",
+                            "magic",
+                            "invisibility"
+                        ],
+                        "description": "Uma folha de origem m\u00e1gica utilizada na fabrica\u00e7\u00e3o de po\u00e7\u00f5es de invisibilidade.",
+                        "effect": [
+                            "INVISIBILITY"
+                        ],
+                        "value": 150,
+                        "consumible": true
+                    },
+                    7
+                ],
+                [
+                    {
+                        "id": "firethorn",
+                        "name": "Espinheiro de Fogo",
+                        "type": [
+                            "ingredient",
+                            "herb",
+                            "plant",
+                            "fire",
+                            "weapon_enchantment"
+                        ],
+                        "description": "Um espinheiro m\u00e1gico capaz de imbuir temporariamente uma arma com chamas.",
+                        "effect": [
+                            "FIRE_DAMAGE",
+                            "FLAME_TONGUE"
+                        ],
+                        "value": 120,
+                        "consumible": true
+                    },
+                    7
+                ],
+                [
+                    {
+                        "id": "rotshroom",
+                        "name": "Cogumelo da Podrid\u00e3o",
+                        "type": [
+                            "ingredient",
+                            "mushroom",
+                            "fungus",
+                            "poison",
+                            "underdark"
+                        ],
+                        "description": "Um fungo perigoso do Subterr\u00e2neo usado na fabrica\u00e7\u00e3o de veneno drow.",
+                        "effect": [
+                            "POISON",
+                            "DROW_POISON"
+                        ],
+                        "value": 150,
+                        "consumible": true
+                    },
+                    7
+                ],
+                [
+                    {
+                        "id": "mindthorn",
+                        "name": "Espinheiro Mental",
+                        "type": [
+                            "ingredient",
+                            "herb",
+                            "plant",
+                            "alchemy",
+                            "truth_serum"
+                        ],
+                        "description": "Uma planta rara utilizada como ingrediente principal na fabrica\u00e7\u00e3o de soros da verdade.",
+                        "effect": [
+                            "TRUTH_SERUM"
+                        ],
+                        "value": 130,
+                        "consumible": true
+                    },
+                    6
+                ],
+                [
+                    {
+                        "id": "dreamleaf",
+                        "name": "Folha dos Sonhos",
+                        "type": [
+                            "ingredient",
+                            "herb",
+                            "plant",
+                            "poison",
+                            "sleep"
+                        ],
+                        "description": "Uma folha m\u00edstica utilizada como ingrediente principal do veneno Ess\u00eancia do \u00c9ter.",
+                        "effect": [
+                            "SLEEP"
+                        ],
+                        "value": 90,
+                        "consumible": true
+                    },
+                    6
+                ],
+                [
+                    {
+                        "id": "deaths-beckon",
+                        "name": "Chamado da Morte",
+                        "type": [
+                            "ingredient",
+                            "herb",
+                            "plant",
+                            "poison",
+                            "toxic"
+                        ],
+                        "description": "Uma planta mortal utilizada como ingrediente no veneno L\u00e1grimas da Meia-Noite.",
+                        "effect": [
+                            "POISON",
+                            "MIDNIGHT_TEARS"
+                        ],
+                        "value": 175,
+                        "consumible": true
+                    },
+                    5
+                ],
+                [
+                    {
+                        "id": "graveflower",
+                        "name": "Flor da Sepultura",
+                        "type": [
+                            "ingredient",
+                            "flower",
+                            "plant",
+                            "necromancy",
+                            "magic"
+                        ],
+                        "description": "Uma flor misteriosa capaz de produzir um efeito semelhante ao feiti\u00e7o Falar com os Mortos.",
+                        "effect": [
+                            "SPEAK_WITH_DEAD"
+                        ],
+                        "value": 200,
+                        "consumible": true
+                    },
+                    5
+                ],
+                [
+                    {
+                        "id": "sirens-call",
+                        "name": "Chamado da Sereia",
+                        "type": [
+                            "ingredient",
+                            "flower",
+                            "plant",
+                            "magic",
+                            "charm"
+                        ],
+                        "description": "Uma flor encantadora utilizada como ingrediente na fabrica\u00e7\u00e3o de po\u00e7\u00f5es do amor.",
+                        "effect": [
+                            "CHARM"
+                        ],
+                        "value": 125,
+                        "consumible": true
+                    },
+                    5
+                ],
+                [
+                    {
+                        "id": "bloomlotus",
+                        "name": "L\u00f3tus Florescente",
+                        "type": [
+                            "ingredient",
+                            "flower",
+                            "plant",
+                            "ornamental",
+                            "valuable"
+                        ],
+                        "description": "Uma flor ornamental rara e extremamente valiosa.",
+                        "effect": [
+                            "ORNAMENTAL"
+                        ],
+                        "value": 150,
+                        "consumible": true
+                    },
+                    5
+                ],
+                [
+                    {
+                        "id": "cinderroot",
+                        "name": "Raiz de Brasa",
+                        "type": [
+                            "ingredient",
+                            "herb",
+                            "root",
+                            "fire",
+                            "resistance"
+                        ],
+                        "description": "Uma raiz resistente ao calor utilizada para criar resist\u00eancia contra danos de fogo.",
+                        "effect": [
+                            "FIRE_RESISTANCE"
+                        ],
+                        "value": 100,
+                        "consumible": true
+                    },
+                    4
+                ],
+                [
+                    {
+                        "id": "starbloom",
+                        "name": "Flor Estelar",
+                        "type": [
+                            "ingredient",
+                            "flower",
+                            "plant",
+                            "magic",
+                            "detection"
+                        ],
+                        "description": "Uma flor radiante que produz um l\u00edquido capaz de revelar criaturas e objetos como o feiti\u00e7o Fogo das Fadas.",
+                        "effect": [
+                            "FAERIE_FIRE"
+                        ],
+                        "value": 125,
+                        "consumible": true
+                    },
+                    4
+                ],
+                [
+                    {
+                        "id": "liferoot",
+                        "name": "Raiz da Vida",
+                        "type": [
+                            "ingredient",
+                            "herb",
+                            "root",
+                            "healing",
+                            "alchemy"
+                        ],
+                        "description": "Uma raiz restauradora utilizada como ingrediente na fabrica\u00e7\u00e3o de po\u00e7\u00f5es de cura.",
+                        "effect": [
+                            "HEALING"
+                        ],
+                        "value": 100,
+                        "consumible": true
+                    },
+                    3
+                ]
+            ],
+            "equipment": [],
+            "items": {},
+            "location": [
+                "elven-high",
+                "main"
+            ],
+            "missions": {
+                "missions-currents": [],
+                "missions-completes": []
+            }
+        },
+        "hunter-00123-elven-high": {
+            "id": "hunter-00123-elven-high",
+            "name": "Richard",
+            "race": "human",
+            "control": false,
+            "gender": "f",
+            "brain": {
+                "personalite": {
+                    "courage": 0.7411444608559999,
+                    "aggressiveness": 0.24550530909963963,
+                    "sociability": -0.1382479303092282
+                },
+                "needs": {
+                    "hunger": 1.0,
+                    "energy": 0.0,
+                    "social": 1.0
+                },
+                "desires": {
+                    "ocupation": 0.2920507671623635,
+                    "discipline": 0.30042473617862386
+                },
+                "ocupations": {
+                    "mage": 0,
+                    "swordsman": 0,
+                    "warrior": 0,
+                    "blacksmith": 0,
+                    "lumberjack": 0,
+                    "hunter": 0.01,
+                    "warlock": 0,
+                    "alchemist": 0
+                },
+                "progress": {},
+                "knowledge_crafts": [],
+                "foods": 0
+            },
+            "level": 1,
+            "exp": 0,
+            "skills": {
+                "blacksmith": 0,
+                "hunter": 1,
+                "lumberjack": 0,
+                "alchemist": 0
+            },
+            "titles": [],
+            "status": {
+                "hp": 100,
+                "hp-max": 100,
+                "st": 100,
+                "st-max": 100,
+                "mp": 100,
+                "mp-max": 100
+            },
+            "magic": {
+                "spells": {},
+                "effects": {}
+            },
+            "relationships": {
+                "status": {},
+                "knowledge": {}
+            },
+            "attributes": {
+                "str": 10,
+                "dex": 10,
+                "con": 10,
+                "int": 10,
+                "wis": 10,
+                "cha": 10
+            },
+            "inventory": [],
+            "equipment": [],
+            "items": {},
+            "location": [
+                "elven-high",
+                "main"
+            ],
+            "missions": {
+                "missions-currents": [],
+                "missions-completes": []
+            }
+        }
+    },
+    "marketplaces": {
+        "elven-high": {
+            "blacksmith": {
+                "own": "blacksmith-00123-elven-high",
+                "inventory": {
+                    "sword-wood": 1,
+                    "calcas-madeira": 2,
+                    "elmo-madeira": 4,
+                    "peitoral-madeira": 3,
+                    "botas-madeira": 1,
+                    "shield-wood": 3
+                }
+            },
+            "alchemist": {
+                "own": "alchemist-00123-elven-high",
+                "inventory": {
+                    "potion-hp50": 22
+                }
+            },
+            "hunter": {
+                "own": "hunter-00123-elven-high",
+                "inventory": {}
+            }
+        }
+    },
+    "plants-in-world": {
+        "plant-nightshade": {
+            "haverts": true,
+            "items_havest": {
+                "nightshade": 5
+            },
+            "clock": {
+                "h": 3,
+                "m": 0,
+                "d": 0,
+                "y": 0
+            }
+        },
+        "plant-silverthorn": {
+            "haverts": true,
+            "items_havest": {
+                "silverthorn": 6
+            },
+            "clock": {
+                "h": 3,
+                "m": 0,
+                "d": 0,
+                "y": 0
+            }
+        },
+        "plant-bloodroot": {
+            "haverts": true,
+            "items_havest": {
+                "bloodroot": 3
+            },
+            "clock": {
+                "h": 3,
+                "m": 0,
+                "d": 0,
+                "y": 0
+            }
+        },
+        "plant-dragons-tongue": {
+            "haverts": true,
+            "items_havest": {
+                "dragons-tongue": 9
+            },
+            "clock": {
+                "h": 3,
+                "m": 0,
+                "d": 0,
+                "y": 0
+            }
+        },
+        "plant-winters-bite": {
+            "haverts": true,
+            "items_havest": {
+                "winters-bite": 5
+            },
+            "clock": {
+                "h": 3,
+                "m": 0,
+                "d": 0,
+                "y": 0
+            }
+        },
+        "plant-dreamleaf": {
+            "haverts": true,
+            "items_havest": {
+                "dreamleaf": 6
+            },
+            "clock": {
+                "h": 3,
+                "m": 0,
+                "d": 0,
+                "y": 0
+            }
+        },
+        "plant-bloomlotus": {
+            "haverts": true,
+            "items_havest": {
+                "bloomlotus": 7
+            },
+            "clock": {
+                "h": 3,
+                "m": 0,
+                "d": 0,
+                "y": 0
+            }
+        },
+        "plant-firethorn": {
+            "haverts": true,
+            "items_havest": {
+                "firethorn": 6
+            },
+            "clock": {
+                "h": 3,
+                "m": 0,
+                "d": 0,
+                "y": 0
+            }
+        },
+        "plant-weavegrass": {
+            "haverts": true,
+            "items_havest": {
+                "weavegrass": 7
+            },
+            "clock": {
+                "h": 3,
+                "m": 0,
+                "d": 0,
+                "y": 0
+            }
+        },
+        "plant-liferoot": {
+            "haverts": true,
+            "items_havest": {
+                "liferoot": 7
+            },
+            "clock": {
+                "h": 3,
+                "m": 0,
+                "d": 0,
+                "y": 0
+            }
+        },
+        "plant-starbloom": {
+            "haverts": true,
+            "items_havest": {
+                "starbloom": 9
+            },
+            "clock": {
+                "h": 3,
+                "m": 0,
+                "d": 0,
+                "y": 0
+            }
+        },
+        "plant-rotshroom": {
+            "haverts": true,
+            "items_havest": {
+                "rotshroom": 4
+            },
+            "clock": {
+                "h": 3,
+                "m": 0,
+                "d": 0,
+                "y": 0
+            }
+        },
+        "plant-mindthorn": {
+            "haverts": true,
+            "items_havest": {
+                "mindthorn": 9
+            },
+            "clock": {
+                "h": 3,
+                "m": 0,
+                "d": 0,
+                "y": 0
+            }
+        },
+        "plant-gravedust": {
+            "haverts": true,
+            "items_havest": {
+                "gravedust": 5
+            },
+            "clock": {
+                "h": 3,
+                "m": 0,
+                "d": 0,
+                "y": 0
+            }
+        },
+        "plant-zapthistle": {
+            "haverts": true,
+            "items_havest": {
+                "zapthistle": 7
+            },
+            "clock": {
+                "h": 3,
+                "m": 0,
+                "d": 0,
+                "y": 0
+            }
+        },
+        "plant-sirens-call": {
+            "haverts": true,
+            "items_havest": {
+                "sirens-call": 10
+            },
+            "clock": {
+                "h": 3,
+                "m": 0,
+                "d": 0,
+                "y": 0
+            }
+        },
+        "plant-deaths-beckon": {
+            "haverts": true,
+            "items_havest": {
+                "deaths-beckon": 5
+            },
+            "clock": {
+                "h": 3,
+                "m": 0,
+                "d": 0,
+                "y": 0
+            }
+        },
+        "plant-shadowleaf": {
+            "haverts": true,
+            "items_havest": {
+                "shadowleaf": 3
+            },
+            "clock": {
+                "h": 3,
+                "m": 0,
+                "d": 0,
+                "y": 0
+            }
+        },
+        "plant-cinderroot": {
+            "haverts": true,
+            "items_havest": {
+                "cinderroot": 9
+            },
+            "clock": {
+                "h": 3,
+                "m": 0,
+                "d": 0,
+                "y": 0
+            }
+        },
+        "plant-graveflower": {
+            "haverts": true,
+            "items_havest": {
+                "graveflower": 6
+            },
+            "clock": {
+                "h": 3,
+                "m": 0,
+                "d": 0,
+                "y": 0
+            }
+        }
+    },
+    "timer_world": {
+        "h": 12,
+        "m": 0,
+        "d": 237,
+        "y": 3245
+    }
+}

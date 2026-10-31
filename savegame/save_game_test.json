@@ -1,0 +1,800 @@
+{
+    "creatures": {
+        "player": {
+            "id": "player",
+            "name": "Player Test",
+            "race": "human",
+            "control": true,
+            "gender": "m",
+            "age": {
+                "h": 0,
+                "m": 0,
+                "d": 3,
+                "y": 0
+            },
+            "brain": {
+                "personalite": {
+                    "courage": 0.7493011697555635,
+                    "aggressiveness": 0.6719548501462953,
+                    "sociability": 0.12032458705705584
+                },
+                "needs": {
+                    "hunger": 0.5716084480392889,
+                    "energy": 0.8440139305037105,
+                    "social": 0.6008839420996291
+                },
+                "desires": {
+                    "ocupation": 0.23255198765338925,
+                    "discipline": 0.37147345171386575
+                },
+                "ocupations": {
+                    "mage": 0,
+                    "swordsman": 0,
+                    "warrior": 0,
+                    "blacksmith": 0,
+                    "lumberjack": 0,
+                    "hunter": 0,
+                    "warlock": 0,
+                    "alchemist": 0
+                },
+                "progress": {},
+                "knowledge_crafts": [],
+                "foods": 0
+            },
+            "level": 1,
+            "exp": 0,
+            "skills": {
+                "blacksmith": 0,
+                "hunter": 0,
+                "lumberjack": 0,
+                "alchemist": 0
+            },
+            "titles": [],
+            "status": {
+                "hp": 100,
+                "hp-max": 100,
+                "st": 100,
+                "st-max": 100,
+                "mp": 100,
+                "mp-max": 100
+            },
+            "magic": {
+                "spells": {},
+                "effects": {}
+            },
+            "relationships": {
+                "status": {},
+                "knowledge": {}
+            },
+            "attributes": {
+                "str": 10,
+                "dex": 10,
+                "con": 10,
+                "int": 10,
+                "wis": 10,
+                "cha": 10
+            },
+            "inventory": [
+                [
+                    {
+                        "id": "gold",
+                        "name": "Moeda de Ouro",
+                        "type": [
+                            "currency",
+                            "money",
+                            "valuable"
+                        ],
+                        "description": "Um peda\u00e7o de ouro achatado",
+                        "value": 1
+                    },
+                    50
+                ]
+            ],
+            "equipment": [],
+            "items": {},
+            "location": [
+                "elven-high",
+                "main"
+            ],
+            "missions": {
+                "missions-currents": [],
+                "missions-completes": []
+            }
+        },
+        "blacksmith-00123-elven-high": {
+            "id": "blacksmith-00123-elven-high",
+            "name": "Raul",
+            "race": "human",
+            "control": false,
+            "gender": "f",
+            "age": {
+                "h": 0,
+                "m": 0,
+                "d": 3,
+                "y": 0
+            },
+            "brain": {
+                "personalite": {
+                    "courage": 0.6096323956670585,
+                    "aggressiveness": 0.4725355625621124,
+                    "sociability": 0.2092861988887707
+                },
+                "needs": {
+                    "hunger": 0.01,
+                    "energy": 0.7299999999999998,
+                    "social": 0.02
+                },
+                "desires": {
+                    "ocupation": 0.17731168672218395,
+                    "discipline": 0.31660275708292807
+                },
+                "ocupations": {
+                    "mage": 0,
+                    "swordsman": 0,
+                    "warrior": 0,
+                    "blacksmith": 0.01,
+                    "lumberjack": 0,
+                    "hunter": 0,
+                    "warlock": 0,
+                    "alchemist": 0
+                },
+                "progress": {},
+                "knowledge_crafts": [
+                    {
+                        "id": "blacksmith-00001",
+                        "name": "Espada de madeira",
+                        "requisites": {
+                            "blacksmith": 1
+                        },
+                        "craft": {
+                            "leak": 1,
+                            "stick": 1
+                        },
+                        "time": {
+                            "h": 2,
+                            "m": 0,
+                            "d": 0
+                        },
+                        "items": {
+                            "sword-wood": 1
+                        }
+                    },
+                    {
+                        "id": "blacksmith-00002",
+                        "name": "Escudo de madeira",
+                        "requisites": {
+                            "blacksmith": 1
+                        },
+                        "craft": {
+                            "leak": 1,
+                            "stick": 1
+                        },
+                        "time": {
+                            "h": 2,
+                            "m": 0,
+                            "d": 0
+                        },
+                        "items": {
+                            "shield-wood": 1
+                        }
+                    },
+                    {
+                        "id": "blacksmith-00003",
+                        "name": "Elmo de madeira",
+                        "requisites": {
+                            "blacksmith": 1
+                        },
+                        "craft": {
+                            "leak": 1,
+                            "stick": 1
+                        },
+                        "time": {
+                            "h": 1,
+                            "m": 0,
+                            "d": 0
+                        },
+                        "items": {
+                            "elmo-madeira": 1
+                        }
+                    },
+                    {
+                        "id": "blacksmith-00004",
+                        "name": "Peitoral de madeira",
+                        "requisites": {
+                            "blacksmith": 2
+                        },
+                        "craft": {
+                            "leak": 3,
+                            "stick": 2
+                        },
+                        "time": {
+                            "h": 4,
+                            "m": 0,
+                            "d": 0
+                        },
+                        "items": {
+                            "peitoral-madeira": 1
+                        }
+                    },
+                    {
+                        "id": "blacksmith-00005",
+                        "name": "Cal\u00e7as de madeira",
+                        "requisites": {
+                            "blacksmith": 1
+                        },
+                        "craft": {
+                            "leak": 2,
+                            "stick": 1
+                        },
+                        "time": {
+                            "h": 2,
+                            "m": 0,
+                            "d": 0
+                        },
+                        "items": {
+                            "calcas-madeira": 1
+                        }
+                    },
+                    {
+                        "id": "blacksmith-00006",
+                        "name": "Botas de madeira",
+                        "requisites": {
+                            "blacksmith": 1
+                        },
+                        "craft": {
+                            "leak": 1,
+                            "stick": 2
+                        },
+                        "time": {
+                            "h": 2,
+                            "m": 0,
+                            "d": 0
+                        },
+                        "items": {
+                            "botas-madeira": 1
+                        }
+                    }
+                ],
+                "foods": 1
+            },
+            "level": 1,
+            "exp": 0,
+            "skills": {
+                "blacksmith": 1,
+                "hunter": 0,
+                "lumberjack": 0,
+                "alchemist": 0
+            },
+            "titles": [],
+            "status": {
+                "hp": 100,
+                "hp-max": 100,
+                "st": 100,
+                "st-max": 100,
+                "mp": 100,
+                "mp-max": 100
+            },
+            "magic": {
+                "spells": {},
+                "effects": {}
+            },
+            "relationships": {
+                "status": {},
+                "knowledge": {}
+            },
+            "attributes": {
+                "str": 10,
+                "dex": 10,
+                "con": 10,
+                "int": 10,
+                "wis": 10,
+                "cha": 10
+            },
+            "inventory": [
+                [
+                    {
+                        "id": "gold",
+                        "name": "Moeda de Ouro",
+                        "type": [
+                            "currency",
+                            "money",
+                            "valuable"
+                        ],
+                        "description": "Um peda\u00e7o de ouro achatado",
+                        "value": 1
+                    },
+                    910
+                ]
+            ],
+            "equipment": [],
+            "items": {},
+            "location": [
+                "elven-high",
+                "main"
+            ],
+            "missions": {
+                "missions-currents": [],
+                "missions-completes": []
+            }
+        },
+        "alchemist-00123-elven-high": {
+            "id": "alchemist-00123-elven-high",
+            "name": "Rebeca",
+            "race": "human",
+            "control": false,
+            "gender": "f",
+            "age": {
+                "h": 0,
+                "m": 0,
+                "d": 3,
+                "y": 0
+            },
+            "brain": {
+                "personalite": {
+                    "courage": 0.879723016951523,
+                    "aggressiveness": 0.5864916894905607,
+                    "sociability": -0.09151438458661895
+                },
+                "needs": {
+                    "hunger": 0.21000000000000005,
+                    "energy": 0.6593580038859311,
+                    "social": 0.6187121530223867
+                },
+                "desires": {
+                    "ocupation": 0.48027312635055464,
+                    "discipline": 0.3765267839874428
+                },
+                "ocupations": {
+                    "mage": 0,
+                    "swordsman": 0,
+                    "warrior": 0,
+                    "blacksmith": 0,
+                    "lumberjack": 0,
+                    "hunter": 0,
+                    "warlock": 0,
+                    "alchemist": 0.01
+                },
+                "progress": {},
+                "knowledge_crafts": [
+                    {
+                        "id": "alchemist-00001",
+                        "name": "Po\u00e7\u00e3o de cura",
+                        "requisites": {
+                            "alchemist": 1
+                        },
+                        "craft": {
+                            "liferoot": 1
+                        },
+                        "time": {
+                            "h": 1,
+                            "m": 0,
+                            "d": 0
+                        },
+                        "items": {
+                            "potion-hp50": 1
+                        }
+                    }
+                ],
+                "foods": 1
+            },
+            "level": 1,
+            "exp": 0,
+            "skills": {
+                "blacksmith": 0,
+                "hunter": 0,
+                "lumberjack": 0,
+                "alchemist": 1
+            },
+            "titles": [],
+            "status": {
+                "hp": 100,
+                "hp-max": 100,
+                "st": 100,
+                "st-max": 100,
+                "mp": 100,
+                "mp-max": 100
+            },
+            "magic": {
+                "spells": {},
+                "effects": {}
+            },
+            "relationships": {
+                "status": {},
+                "knowledge": {}
+            },
+            "attributes": {
+                "str": 10,
+                "dex": 10,
+                "con": 10,
+                "int": 10,
+                "wis": 10,
+                "cha": 10
+            },
+            "inventory": [
+                [
+                    {
+                        "id": "gold",
+                        "name": "Moeda de Ouro",
+                        "type": [
+                            "currency",
+                            "money",
+                            "valuable"
+                        ],
+                        "description": "Um peda\u00e7o de ouro achatado",
+                        "value": 1
+                    },
+                    1090
+                ]
+            ],
+            "equipment": [],
+            "items": {},
+            "location": [
+                "elven-high",
+                "main"
+            ],
+            "missions": {
+                "missions-currents": [],
+                "missions-completes": []
+            }
+        },
+        "hunter-00123-elven-high": {
+            "id": "hunter-00123-elven-high",
+            "name": "Richard",
+            "race": "human",
+            "control": false,
+            "gender": "f",
+            "age": {
+                "h": 0,
+                "m": 0,
+                "d": 3,
+                "y": 0
+            },
+            "brain": {
+                "personalite": {
+                    "courage": 0.9737860096785489,
+                    "aggressiveness": 0.4600851701126617,
+                    "sociability": -0.1221379891524737
+                },
+                "needs": {
+                    "hunger": 1.0,
+                    "energy": 0.0,
+                    "social": 1.0
+                },
+                "desires": {
+                    "ocupation": 0.10645770278854294,
+                    "discipline": 0.3444849089871517
+                },
+                "ocupations": {
+                    "mage": 0,
+                    "swordsman": 0,
+                    "warrior": 0,
+                    "blacksmith": 0,
+                    "lumberjack": 0,
+                    "hunter": 0.01,
+                    "warlock": 0,
+                    "alchemist": 0
+                },
+                "progress": {},
+                "knowledge_crafts": [],
+                "foods": 0
+            },
+            "level": 1,
+            "exp": 0,
+            "skills": {
+                "blacksmith": 0,
+                "hunter": 1,
+                "lumberjack": 0,
+                "alchemist": 0
+            },
+            "titles": [],
+            "status": {
+                "hp": 100,
+                "hp-max": 100,
+                "st": 100,
+                "st-max": 100,
+                "mp": 100,
+                "mp-max": 100
+            },
+            "magic": {
+                "spells": {},
+                "effects": {}
+            },
+            "relationships": {
+                "status": {},
+                "knowledge": {}
+            },
+            "attributes": {
+                "str": 10,
+                "dex": 10,
+                "con": 10,
+                "int": 10,
+                "wis": 10,
+                "cha": 10
+            },
+            "inventory": [],
+            "equipment": [],
+            "items": {},
+            "location": [
+                "elven-high",
+                "main"
+            ],
+            "missions": {
+                "missions-currents": [],
+                "missions-completes": []
+            }
+        }
+    },
+    "marketplaces": {
+        "elven-high": {
+            "blacksmith": {
+                "own": "blacksmith-00123-elven-high",
+                "inventory": {
+                    "elmo-madeira": 1,
+                    "shield-wood": 4,
+                    "peitoral-madeira": 4,
+                    "calcas-madeira": 3,
+                    "botas-madeira": 3,
+                    "sword-wood": 2
+                }
+            },
+            "alchemist": {
+                "own": "alchemist-00123-elven-high",
+                "inventory": {
+                    "potion-hp50": 21
+                }
+            },
+            "hunter": {
+                "own": "hunter-00123-elven-high",
+                "inventory": {}
+            }
+        }
+    },
+    "plants-in-world": {
+        "plant-nightshade": {
+            "haverts": true,
+            "items_havest": {
+                "nightshade": 6
+            },
+            "clock": {
+                "h": 3,
+                "m": 0,
+                "d": 1,
+                "y": 0
+            }
+        },
+        "plant-silverthorn": {
+            "haverts": true,
+            "items_havest": {
+                "silverthorn": 8
+            },
+            "clock": {
+                "h": 0,
+                "m": 0,
+                "d": 1,
+                "y": 0
+            }
+        },
+        "plant-bloodroot": {
+            "haverts": true,
+            "items_havest": {
+                "bloodroot": 10
+            },
+            "clock": {
+                "h": 3,
+                "m": 0,
+                "d": 1,
+                "y": 0
+            }
+        },
+        "plant-dragons-tongue": {
+            "haverts": true,
+            "items_havest": {
+                "dragons-tongue": 3
+            },
+            "clock": {
+                "h": 18,
+                "m": 0,
+                "d": 0,
+                "y": 0
+            }
+        },
+        "plant-winters-bite": {
+            "haverts": true,
+            "items_havest": {
+                "winters-bite": 10
+            },
+            "clock": {
+                "h": 9,
+                "m": 0,
+                "d": 2,
+                "y": 0
+            }
+        },
+        "plant-dreamleaf": {
+            "haverts": true,
+            "items_havest": {
+                "dreamleaf": 7
+            },
+            "clock": {
+                "h": 21,
+                "m": 0,
+                "d": 0,
+                "y": 0
+            }
+        },
+        "plant-bloomlotus": {
+            "haverts": true,
+            "items_havest": {
+                "bloomlotus": 6
+            },
+            "clock": {
+                "h": 18,
+                "m": 0,
+                "d": 1,
+                "y": 0
+            }
+        },
+        "plant-firethorn": {
+            "haverts": true,
+            "items_havest": {
+                "firethorn": 8
+            },
+            "clock": {
+                "h": 12,
+                "m": 0,
+                "d": 0,
+                "y": 0
+            }
+        },
+        "plant-weavegrass": {
+            "haverts": true,
+            "items_havest": {
+                "weavegrass": 3
+            },
+            "clock": {
+                "h": 15,
+                "m": 0,
+                "d": 0,
+                "y": 0
+            }
+        },
+        "plant-liferoot": {
+            "haverts": true,
+            "items_havest": {
+                "liferoot": 9
+            },
+            "clock": {
+                "h": 15,
+                "m": 0,
+                "d": 1,
+                "y": 0
+            }
+        },
+        "plant-starbloom": {
+            "haverts": true,
+            "items_havest": {
+                "starbloom": 9
+            },
+            "clock": {
+                "h": 21,
+                "m": 0,
+                "d": 2,
+                "y": 0
+            }
+        },
+        "plant-rotshroom": {
+            "haverts": true,
+            "items_havest": {
+                "rotshroom": 4
+            },
+            "clock": {
+                "h": 0,
+                "m": 0,
+                "d": 3,
+                "y": 0
+            }
+        },
+        "plant-mindthorn": {
+            "haverts": true,
+            "items_havest": {
+                "mindthorn": 10
+            },
+            "clock": {
+                "h": 3,
+                "m": 0,
+                "d": 1,
+                "y": 0
+            }
+        },
+        "plant-gravedust": {
+            "haverts": true,
+            "items_havest": {
+                "gravedust": 10
+            },
+            "clock": {
+                "h": 18,
+                "m": 0,
+                "d": 0,
+                "y": 0
+            }
+        },
+        "plant-zapthistle": {
+            "haverts": true,
+            "items_havest": {
+                "zapthistle": 7
+            },
+            "clock": {
+                "h": 15,
+                "m": 0,
+                "d": 2,
+                "y": 0
+            }
+        },
+        "plant-sirens-call": {
+            "haverts": true,
+            "items_havest": {
+                "sirens-call": 10
+            },
+            "clock": {
+                "h": 18,
+                "m": 0,
+                "d": 0,
+                "y": 0
+            }
+        },
+        "plant-deaths-beckon": {
+            "haverts": true,
+            "items_havest": {
+                "deaths-beckon": 9
+            },
+            "clock": {
+                "h": 6,
+                "m": 0,
+                "d": 1,
+                "y": 0
+            }
+        },
+        "plant-shadowleaf": {
+            "haverts": true,
+            "items_havest": {
+                "shadowleaf": 7
+            },
+            "clock": {
+                "h": 15,
+                "m": 0,
+                "d": 2,
+                "y": 0
+            }
+        },
+        "plant-cinderroot": {
+            "haverts": true,
+            "items_havest": {
+                "cinderroot": 6
+            },
+            "clock": {
+                "h": 6,
+                "m": 0,
+                "d": 2,
+                "y": 0
+            }
+        },
+        "plant-graveflower": {
+            "haverts": true,
+            "items_havest": {
+                "graveflower": 3
+            },
+            "clock": {
+                "h": 18,
+                "m": 0,
+                "d": 0,
+                "y": 0
+            }
+        }
+    },
+    "timer_world": {
+        "h": 6,
+        "m": 0,
+        "d": 237,
+        "y": 3245
+    }
+}

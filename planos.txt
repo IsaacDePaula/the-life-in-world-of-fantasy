@@ -1,0 +1,16 @@
+✅
+❌
+
+7. Checklist mínimo para considerar a base estável
+• [✅] Iniciar uma nova partida sem erro.
+• [✅] Navegar entre locais sem corromper a localização.
+• [✅] Abrir inventário vazio e cheio; adicionar/remover quantidades e moedas.
+• [✅] Equipar e desequipar itens respeitando slot e mão esquerda/direita.
+• [✅] Comprar/vender em condições de saldo suficiente e insuficiente.
+• [✅] Colher planta antes, exatamente no prazo e depois do prazo esperado.
+• [❌] Fabricar item consumindo ingredientes uma única vez e respeitando o tempo.
+• [✅] Resolver combate com ataque, erro, dano, fuga, derrota, magia e loot sem exceções.
+• [❌] NPC concluir uma tarefa de longa duração mesmo após vários avanços de tempo.
+• [❌] NPC comprar necessidades sem estar em emergência e justificar a decisão.
+• [✅] Salvar e carregar mundo, jogador, inventários, relações, estoques e tarefas em andamento.
+• [❌] Executar uma simulação longa com seed fixa e verificar inflação, recursos infinitos e travamentos.
